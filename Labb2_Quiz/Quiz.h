@@ -10,4 +10,9 @@
 
 @interface Quiz : NSObject
 
+@property (nonatomic) NSDictionary *question;
+
+-(void)questionsData;
+-(int)randomQuestion:(NSArray*)questions;
+
 @end
