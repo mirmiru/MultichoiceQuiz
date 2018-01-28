@@ -9,5 +9,15 @@
 #import <Foundation/Foundation.h>
 
 @interface QuizObject : NSObject
+@property (nonatomic) NSMutableArray *allQuestions;
+@property (nonatomic) NSMutableArray *askedQuestions;
+@property (nonatomic) int questionNumber;
+@property (nonatomic) int correctAnswers;
 
+//Methods
+-(instancetype)initQuiz;
+-(NSDictionary*)getRandomQuestion;
+-(NSArray*)getAnswers:(NSDictionary*)dictionary;
+-(BOOL)correctAnswer:(NSDictionary*)dictionary answer:(NSString*)answer;
 @end
+

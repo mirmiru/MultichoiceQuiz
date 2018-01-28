@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5329069201DCF1300760A9C /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5329068201DCF1300760A9C /* ScoreViewController.m */; };
 		A53A02F12018F2D700C99676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A02F02018F2D700C99676 /* AppDelegate.m */; };
-		A53A02F42018F2D700C99676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A02F32018F2D700C99676 /* ViewController.m */; };
 		A53A02F72018F2D700C99676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53A02F52018F2D700C99676 /* Main.storyboard */; };
 		A53A02F92018F2D700C99676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53A02F82018F2D700C99676 /* Assets.xcassets */; };
 		A53A02FC2018F2D700C99676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53A02FA2018F2D700C99676 /* LaunchScreen.storyboard */; };
 		A53A02FF2018F2D700C99676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A02FE2018F2D700C99676 /* main.m */; };
+		A53EAD5B201D235200CE8D51 /* QuizObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A53EAD5A201D235200CE8D51 /* QuizObject.m */; };
+		A5CE249F201A68F9002053DF /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CE249E201A68F9002053DF /* QuizViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5329067201DCF1300760A9C /* ScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		A5329068201DCF1300760A9C /* ScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
 		A53A02EC2018F2D700C99676 /* Labb2_Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Labb2_Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53A02EF2018F2D700C99676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A53A02F02018F2D700C99676 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A53A02F22018F2D700C99676 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A53A02F32018F2D700C99676 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A53A02F62018F2D700C99676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A53A02F82018F2D700C99676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A53A02FB2018F2D700C99676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A53A02FD2018F2D700C99676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53A02FE2018F2D700C99676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53EAD59201D235200CE8D51 /* QuizObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizObject.h; sourceTree = "<group>"; };
+		A53EAD5A201D235200CE8D51 /* QuizObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizObject.m; sourceTree = "<group>"; };
+		A5CE249D201A68F9002053DF /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		A5CE249E201A68F9002053DF /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +66,17 @@
 			children = (
 				A53A02EF2018F2D700C99676 /* AppDelegate.h */,
 				A53A02F02018F2D700C99676 /* AppDelegate.m */,
-				A53A02F22018F2D700C99676 /* ViewController.h */,
-				A53A02F32018F2D700C99676 /* ViewController.m */,
+				A5CE249D201A68F9002053DF /* QuizViewController.h */,
+				A5CE249E201A68F9002053DF /* QuizViewController.m */,
+				A5329067201DCF1300760A9C /* ScoreViewController.h */,
+				A5329068201DCF1300760A9C /* ScoreViewController.m */,
 				A53A02F52018F2D700C99676 /* Main.storyboard */,
 				A53A02F82018F2D700C99676 /* Assets.xcassets */,
 				A53A02FA2018F2D700C99676 /* LaunchScreen.storyboard */,
 				A53A02FD2018F2D700C99676 /* Info.plist */,
 				A53A02FE2018F2D700C99676 /* main.m */,
+				A53EAD59201D235200CE8D51 /* QuizObject.h */,
+				A53EAD5A201D235200CE8D51 /* QuizObject.m */,
 			);
 			path = Labb2_Quiz;
 			sourceTree = "<group>";
@@ -142,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A53A02F42018F2D700C99676 /* ViewController.m in Sources */,
+				A5CE249F201A68F9002053DF /* QuizViewController.m in Sources */,
 				A53A02FF2018F2D700C99676 /* main.m in Sources */,
+				A5329069201DCF1300760A9C /* ScoreViewController.m in Sources */,
+				A53EAD5B201D235200CE8D51 /* QuizObject.m in Sources */,
 				A53A02F12018F2D700C99676 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
