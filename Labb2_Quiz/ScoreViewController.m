@@ -7,8 +7,11 @@
 //
 
 #import "ScoreViewController.h"
+#import "QuizViewController.h"
 
 @interface ScoreViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *correctAnswersField;
+@property (weak, nonatomic) IBOutlet UITextField *wrongAnswersField;
 
 @end
 
@@ -16,7 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.wrongAnswers = 10-(self.correctAnswers);
+    self.correctAnswersField.text = [NSString stringWithFormat:@"%d", self.correctAnswers];
+    self.wrongAnswersField.text = [NSString stringWithFormat:@"%d", self.wrongAnswers];
     // Do any additional setup after loading the view.
+    
+}
+- (IBAction)playAgainButton:(id)sender {
+    QuizViewController *quiz = [[QuizViewController alloc] init];
+    [quiz viewDidLoad];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ScoreViewController : UIViewController
-
+@property (nonatomic) int correctAnswers;
+@property (nonatomic) int wrongAnswers;
 @end
